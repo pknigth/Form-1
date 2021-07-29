@@ -10,7 +10,7 @@ table{
   }
   
   td:nth-child(odd){
-    background: skyblue;
+    background: lightgreen;
   }
   
   .lang{
