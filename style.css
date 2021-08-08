@@ -1,22 +1,39 @@
-table{
-    border:black;
-    border-collapse: collapse;
-  }
+table, td{
+  width: 70%;
+  border: 1px solid black;
+  border-collapse: collapse;
   
-  td{
-    width: 500px;
-    height: 35px;
-    text-align:center;
-  }
-  
-  td:nth-child(odd){
-    background: lightgreen;
-  }
-  
-  .lang{
-    width: 200px;
+  /* 
+  can give instead of .center
+  margin-left: auto;
+  margin-right: auto; */
   }
 
-  h1{
-      text-align: center;
+  h2{
+    text-align: center;
   }
+
+.center{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* can write 2n+1 instead of odd*/
+td.c1, td:nth-child(odd){
+  background: skyblue;
+}
+
+td.color{
+  background: white;
+}
+
+ td{
+  width: 500px;
+  height: 35px;
+  text-align:center;
+}
+
+p{
+  margin-left: 74%;
+  margin-bottom: -4px;
+}
